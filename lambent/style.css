@@ -1,0 +1,152 @@
+@import "library.css";
+/*
+Rubidium Umbra Theme
+Theme name: Lambent Theme author: Atlas, TristanP13
+*/
+/* Description: This will change the background image for the main background, modal content, and the date picker.*/
+.modal,
+body:before,
+.picker__box {
+    background-image: url("http://i.imgur.com/r1b5ILb.jpg");
+}
+/** accent start **/
+/** IMPORTANT: this will change MOST accent colors of the theme, the current default value for this is #386eff, this color is blue.**/
+
+[type="checkbox"]:checked + label:after,
+[type="checkbox"].filled-in:checked + label:after,
+.picker__date-display,
+.picker__day--selected,
+.picker__day--selected:hover,
+.picker--focused .picker__day--selected,
+.pagination li.active {
+    background-color: #386eff;
+}
+
+[type="checkbox"].filled-in:checked + label:after {
+    border-color: #386eff;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #386eff !important;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+.dropdown-content li > a,
+.dropdown-content li > span,
+.picker__day.picker__day--today {
+    color: #386eff;
+}
+
+/** accent end **/
+
+
+/* Description: the flat button which has a transparent background. This is default the value of #EEE. */
+.btn-flat {
+    color: #212121 !important;
+}
+
+/* Description: the accept button for an appeal. This is the default value of #689f38 and #fff. */
+.accept-btn {
+    background-color: rgba(104, 159, 56, 0.3) !important;
+    border: 1.5px solid rgba(104, 159, 56, 0.6);
+}
+
+/* Description: the deny button for an appeal. This is the default value of #E53935 and #fff. */
+.deny-btn {
+    background-color: #E53935 !important;
+    color: #fff !important;
+}
+
+/* Description: the brand logo is the name of the community displayed in the navigation bar. This is default the value of #fff. */
+.navigation-1 .brand-logo {
+    color: #212121 !important;
+}
+
+/* Description: the UL a is the sign-in link colour in the navigation bar. This is default the value of #fff. */
+.navigation-1 ul a {
+    color: #212121 !important;
+}
+
+/* Description: the side navigation's links displayed in the <li> classes. It is not not recommeneded to edit this. */
+.side-nav a {
+    color: rgba(11, 11, 11, 0.95) !important;
+}
+
+/* Description: the side navigation's material icons are the icons displayed next to the links. */
+.side-nav li > a > i,
+.side-nav li > a > [class^="mdi-"],
+.side-nav li > a > [class*="mdi-"],
+.side-nav li > a > i.material-icons {
+    color: rgba(11, 11, 11, 0.95) !important;
+}
+/* Description: the divider is used in the menu in order to separate admin/non-admin UI elements. It is not not recommeneded to edit this. */
+
+.divider {
+    background-color: #EEE !important;
+}
+/* Description: the spotlight header overlay is the text shown on top of spotlight images on the home and search screens. This is default the value of #fff. */
+
+.spotlight-header-overlay, .spotlight-header-overlay > h2 {
+    color: #EEE !important;
+}
+/* Description: the normal container's links. This is default the value of #000. */
+/* CHANGE ME */
+.normal-container a {
+    color: #386eff;
+}
+/* Description: the non active tab's attributes. This is default the value of rgba(238,110,115,0.7). */
+
+.tabs .tab a {
+    color: rgba(11, 11, 11, 0.7) !important;
+}
+/* Description: the active tab's attributes. This is default the value of rgba(238,110,115,1). */
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: rgba(11, 11, 11, 0.7) !important;
+}
+/* Description: the active tab has an underline. This is the underline. This is default the value of #be3232. */
+
+.tabs .indicator {
+    background-color: #be3232 !important;
+}
+/* Description: the default colour for all enabled modals. This is default the value of fff. */
+
+.modal-content {
+    color: #212121 !important;
+}
+/* Description: the footer's text which displays the community and copyright for MEGAscripts. This is default the value of rgba(255,255,255,0.8). */
+
+footer.page-footer .footer-copyright {
+    color: rgba(11, 11, 11, 0.8) !important;
+}
+
+
+/*Description: This will change most header colors to it's default value #EEE, it's best to change this when using a background that makes the headers hard to read.*/
+h1, h2, h3, h4, h5, h6{
+  color:#212121 !important
+}

@@ -1,0 +1,225 @@
+/**
+    Addon: Rubidium Lambent Edition
+    Author: Atlas
+**/
+
+.btn,
+.btn-large {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #212121 !important;
+}
+/* Description: the normal button which is displayed on hovering. It is not not recommeneded to edit this. */
+
+.btn:hover,
+.btn-large:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+/* Description: the navigation is the top bar of the screen. */
+
+.navigation-1 {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+/* Description: the side navigation is displayed on the right-hand side of most webpages. It is not not recommeneded to edit this. */
+
+.side-nav {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* Description: the side navigation has a collapsible menu for the bans. It is not not recommeneded to edit this. */
+
+.side-nav .collapsible-body,
+.side-nav.fixed .collapsible-body {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/** This changes the color of anything using yellow darken 3, It is not recommended to edit this. **/
+
+.yellow.darken-3 {
+    background-color: rgba(251, 192, 45, 0.3) !important;
+    border: 1.5px solid rgba(251, 192, 45, 0.6)
+}
+
+/* Description: the danger button is displayed on UI elements which should be discouraged for the user to click. It is not not recommeneded to edit this. */
+.danger-btn {
+    background-color: rgba(244, 67, 54, 0.3) !important;
+    border: 1.5px solid rgba(244, 67, 54, 0.6);
+}
+
+/** This changes the color of anything using this blue darken 1. It is not recommended to edit this. **/
+
+.blue.darken-1 {
+    background-color: rgba(30, 136, 229, 0.3) !important;
+}
+.collapsible-header {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #212121;
+    border-bottom: 0;
+}
+.collapsible {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.collapsible > li.active {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.collapsible-body {
+    border-bottom: 0;
+}
+label {
+    color: #212121 !important
+}
+thead {
+    border-bottom: 0;
+}
+.pagination li a {
+    color: #D6D6D6;
+}
+.status {
+    border-radius: 3px !important;
+}
+.input-field {
+    color: #212121;
+}
+[type="checkbox"]:checked + label:before {
+    border-right: 2px solid #212121 !important;
+    border-bottom: 2px solid #212121 !important;
+}
+.picker__box {
+    background: rgba(255, 255, 255, 0.5);
+    border: 0;
+}
+.picker,
+.picker__day--infocus,
+.btn-flat {
+    color: #212121 !important;
+}
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    border-bottom: 1px solid #212121 !important
+}
+.dropdown-content {
+    background: rgba(255, 255, 255, 0.5);
+}
+/* Description: the stat box is shown on the home page and contains data about your community. It is not not recommeneded to edit this. */
+
+.stat-box-one {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: #212121 !important;
+}
+/* Description: the stat box is shown on the home page and contains data about your community. It is not not recommeneded to edit this. */
+
+.stat-box-two {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: #212121 !important;
+}
+/* Description: the stat box is shown on the home page and contains data about your community. It is not not recommeneded to edit this. */
+
+.stat-box-three {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: #212121 !important;
+}
+/* Description: the stat box is shown on the home page and contains data about your community. This is default the values of #D32F2F and #212121. */
+
+.stat-box-four {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: #212121 !important;
+}
+/* Description: the normal container which is used on most of the pages. It is not not recommeneded to edit this. */
+
+.normal-container {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: #212121;
+}
+/* Description: the footer of the page. It is not not recommeneded to edit this. */
+
+.page-footer {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: #212121 !important;
+}
+.modal .modal-footer {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+/* Description: when the user hovers over a table a highlight effect shows. It is not not recommeneded to edit this. */
+
+table.highlight > tbody > tr:hover {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+/** specific shit that needs to stay **/
+
+body {
+    background: transparent !important;
+}
+/** this is removing the image for the side-nav **/
+
+.with-bg-image {
+    background-image: none !important;
+}
+.side-nav .userView .background {
+    display: none;
+}
+/* Description: the spotlight button one is the first button to appear on spotlight overlays. It is not not recommeneded to edit this. */
+
+.spotlight-button-one {
+    background-color: rgba(30, 136, 229, 0.5) !important;
+    border: 2.25px solid rgba(30, 136, 229, 0.5);
+    color: #eee !important;
+}
+/* Description: the spotlight button one is the second button to appear on spotlight overlays. It is not not recommeneded to edit this. */
+
+.spotlight-button-two {
+    background-color: rgba(183, 28, 28, 0.5) !important;
+    border: 2.25px solid rgba(183, 28, 28, 0.5);
+    color: #eee !important;
+}
+.picker__box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    will-change: transform;
+    z-index: -1;
+}
+body:before {
+    content: ' ';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    will-change: transform;
+    z-index: -1;
+}
+
+/* Description: the modal which pops up on button click. It is not not recommeneded to edit this. */
+.modal {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+
+::-webkit-scrollbar {
+  background: #EEE !important;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(32, 32, 32, 0.3) !important;
+}
+
+.side-nav .user-view .name, .side-nav .userView .name,
+.side-nav .user-view .email, .side-nav .userView .email{
+  color:#212121 !important
+}

@@ -1,0 +1,60 @@
+
+
+
+
+.modal-content{
+  background-color: #212121 !important;
+  color:#eee;
+}
+.modal-content > h5, .modal-content > h4, .modal-content > p{
+  color:#eee
+}
+.modal.modal-fixed-footer .modal-content{
+  color:#eee !important;
+}
+
+.modal.modal-fixed-footer .modal-footer{
+  border-top: 0;
+  border-bottom: 0;
+}
+
+
+.select-wrapper input.select-dropdown{
+  color:#eee;
+}
+
+.dropdown-content{
+  background-color: #323232;
+  color:#EEE;
+}
+
+.dropdown-content li>a, .dropdown-content li>span:hover, .dropdown-content li.active, .dropdown-content li.selected, .dropdown-content li.active.selected{
+  background-color:#424242
+}
+
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea
+{
+  color:#EEE;
+}
+
+
+thead{
+  border-bottom: 1px solid #323232;
+}
+.collapsible-header {
+    background-color: #212121;
+    color: #EEE;
+    border-bottom: 0;
+}
+.collapsible {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+.collapsible > li.active {
+    background-color: #212121;
+}
+.collapsible-body {
+    border-bottom: 0;
+}

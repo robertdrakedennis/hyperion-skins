@@ -1,0 +1,187 @@
+@import "library.css";
+/*
+Rubidium Nightly theme
+Theme name: Default
+Theme author: TristanP13, Atlas
+*/
+
+/* Description: the body is the very background and base layer of material. This is default the value of #1E88E5. */
+body {
+    background: #111111 !important;
+}
+
+/* Description: the normal button which is used by most pages. This is default the values of #26a69a and #fff. */
+.btn, .btn-large {
+    background-color: #26a69a;
+    color: #fff !important;
+}
+
+/* Description: the normal button which is displayed on hovering. This is default the value of #2bbbad. */
+.btn:hover, .btn-large:hover {
+    background-color: #2bbbad;
+}
+
+/* Description: the danger button is displayed on UI elements which should be discouraged for the user to click. This is default the values of #B71C1C and #fff. */
+.danger-btn {
+    background-color: #B71C1C !important;
+    color: #fff !important;
+}
+
+/* Description: the flat button which has a transparent background. This is default the value of #343434. */
+.btn-flat {
+    color: #EEE !important;
+}
+
+/* Description: the accept button for an appeal. This is the default value of #689f38 and #fff. */
+.accept-btn {
+    background-color: #689f38 !important;
+    color: #fff !important;
+}
+
+/* Description: the deny button for an appeal. This is the default value of #E53935 and #fff. */
+.deny-btn {
+    background-color: #E53935 !important;
+    color: #fff !important;
+}
+
+/* Description: the navigation is the top bar of the screen. This is default the value of #212121. */
+.navigation-1 {
+    background: #212121 !important;
+}
+
+/* Description: the brand logo is the name of the community displayed in the navigation bar. This is default the value of #fff. */
+.navigation-1 .brand-logo {
+    color: #ffffff !important;
+}
+
+/* Description: the UL a is the sign-in link colour in the navigation bar. This is default the value of #fff. */
+.navigation-1 ul a {
+    color: #ffffff !important;
+}
+
+/* Description: the side navigation is displayed on the right-hand side of most webpages. This is default the value of #fff. */
+.side-nav {
+    background-color: #212121 !important;
+}
+
+/* Description: the side navigation has a collapsible menu for the bans. Choose the colour you'd like in there. This is default the value of #fff. */
+.side-nav .collapsible-body, .side-nav.fixed .collapsible-body {
+    background-color: #212121 !important;
+}
+
+/* Description: the side navigation's links displayed in the <li> classes. This is default the value of rgba(0,0,0,0.87). */
+.side-nav a {
+    color: rgba(235,235,235,0.87) !important;
+}
+
+.side-nav a:hover{
+  background-color: #252525
+}
+
+/* Description: the side navigation's material icons are the icons displayed next to the links. This is default the value of rgba(0,0,0,0.54). */
+.side-nav li > a > i, .side-nav li > a > [class^="mdi-"], .side-nav li > a > [class*="mdi-"], .side-nav li > a > i.material-icons {
+    color: rgba(255,255,255,0.54) !important;
+}
+
+/* Description: the divider is used in the menu in order to separate admin/non-admin UI elements. This is default the value of #e0e0e0. */
+.divider {
+    background-color: #323232 !important;
+}
+
+/* Description: the spotlight header overlay is the text shown on top of spotlight images on the home and search screens. This is default the value of #fff. */
+.spotlight-header-overlay {
+    color: #ffffff !important;
+}
+
+/* Description: the spotlight button one is the first button to appear on spotlight overlays. This is default the values of #1E88E5 and #fff. */
+.spotlight-button-one {
+    background-color: #1E88E5 !important;
+    color: #ffffff !important;
+}
+
+/* Description: the spotlight button one is the second button to appear on spotlight overlays. This is default the values of #B71C1C and #fff. */
+.spotlight-button-two {
+    background-color: #B71C1C !important;
+    color: #ffffff !important;
+}
+
+/* Description: the stat box is shown on the home page and contains data about your community. This is default the values of #8e24aa and #fff. */
+.stat-box-one {
+    background-color: #8e24aa !important;
+    color: #fff !important;
+}
+
+/* Description: the stat box is shown on the home page and contains data about your community. This is default the values of #43A047 and #fff. */
+.stat-box-two {
+    background-color: #43A047 !important;
+    color: #fff !important;
+}
+
+/* Description: the stat box is shown on the home page and contains data about your community. This is default the values of #0277bd and #fff. */
+.stat-box-three {
+    background-color: #0277bd !important;
+    color: #fff !important;
+}
+
+/* Description: the stat box is shown on the home page and contains data about your community. This is default the values of #D32F2F and #fff. */
+.stat-box-four {
+    background-color: #D32F2F !important;
+    color: #fff !important;
+}
+
+/* Description: the normal container which is used on most of the pages. This is default the values of #fff and #000. */
+.normal-container {
+    background-color: #212121 !important;
+    color: #EEE;
+}
+
+/* Description: the normal container's links. This is default the value of #000. */
+.normal-container a {
+    color: #EEE;
+}
+
+/* Description: the non active tab's attributes. This is default the value of rgba(238,110,115,0.7). */
+.tabs .tab a {
+    color: rgba(238,110,115,0.7) !important;
+}
+
+/* Description: the active tab's attributes. This is default the value of rgba(238,110,115,1). */
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: rgba(244,244,244,0.45) !important;
+}
+
+/* Description: the active tab has an underline. This is the underline. This is default the value of #f6b2b5. */
+.tabs .indicator {
+    background-color: #f6b2b5 !important;
+}
+
+/* Description: the footer of the page. This is default the values of #1E88E5 and #fff. */
+.page-footer {
+    background-color: #1E88E5 !important;
+    color: #ffffff !important;
+}
+
+/* Description: the modal which pops up on button click. This is default the value of #fafafa. */
+.modal {
+    background: #fafafa !important;
+}
+
+/* Description: the default colour for all enabled modals. This is default the value of rgba(0,0,0,0.87). */
+.modal-content {
+    color: rgba(0,0,0,0.87) !important;
+}
+
+/* Description: the default footer colour for all enabled modals. This is default the value of #fafafa. */
+.modal .modal-footer {
+    background-color: #212121 !important;
+}
+
+/* Description: when the user hovers over a table a highlight effect shows. This is default the value of #f2f2f2. */
+table.highlight > tbody > tr:hover {
+    background-color: #252525 !important;
+}
+
+/* Description: the footer's text which displays the community and copyright for MEGAscripts. This is default the value of rgba(255,255,255,0.8). */
+footer.page-footer .footer-copyright {
+    color: rgba(255,255,255,0.8) !important;
+}
